@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  
+}
+.box1 {
+  width: 50vw;
+  height: 100%;
+  background: #28655e;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+h1 {
+  padding: 1rem;
+}
+
+.box2 {
+  min-width: 50vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+img {
+  width: 40px;
+  margin: 1rem
+}
+input {
+font-size: large;
+  width: 25rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 2px #00000040;
+}
+::placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+  color: rgb(35, 35, 35);
+  letter-spacing: 0em;
+  text-align: left;
+  font-size:small;
+}
+.btn1 {
+  background-color: #28655e;
+  width: 25rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 2px #00000040;
+  font-weight: bold;
+  border: none;
+}
+.btn {
+  padding: 1rem 3rem;
+  background-color: white;
+  border-radius: 30px;
+  color: #28655e;
+  font-weight: bold;
+  box-shadow: 0px 10px 4px 0px #00000040;
+  border: none;
+
+}
+.note{
+    margin: 0.5rem;
+    text-align: center;
+}
+button {
+    background-color: transparent;
+    border : none ; 
+    cursor : pointer
+}
+@media only screen and (max-width: 800px) {
+    
+    .box1 {display: none;
+        width: 0vw;
+    }
+    .box2 {
+        width: 100vw;
+    }
+   
+  }
